@@ -13,6 +13,10 @@ config_version=4
 config/name="Change The Color"
 config/icon="res://icon.png"
 
+[autoload]
+
+ClassicGlovar="*res://src/game/classic/classic_glovar.gd"
+
 [display]
 
 window/size/width=1080
