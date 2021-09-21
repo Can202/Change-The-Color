@@ -1,11 +1,9 @@
-extends Node
+extends Node2D
 
 
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var pointer_position = Vector2()
-var appear_obj = false
 
 
 # Called when the node enters the scene tree for the first time.
@@ -14,5 +12,6 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
+func _process(delta):
+	rotation_degrees += 90 * delta
 #	pass
